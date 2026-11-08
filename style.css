@@ -1,1 +1,27 @@
 body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;line-height:1.8;color:#10203d;background:#fff;max-width:760px;margin:0 auto;padding:28px 20px}nav{display:flex;gap:18px;flex-wrap:wrap;border-bottom:1px solid #dbe2ed;padding-bottom:14px}a{color:#246fe9}nav a{text-decoration:none;font-weight:600}h1{font-size:2rem;line-height:1.3}h2{font-size:1.3rem;margin-top:2rem}li{margin:6px 0}@media(prefers-color-scheme:dark){body{color:#eef2fa;background:#111827}nav{border-color:#344055}a{color:#79aaff}}
+
+.store-intro h1 { margin-top: 1.25rem; }
+.store-link {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 8px;
+  background: #0d74ce;
+  color: #fcfcfd;
+  text-decoration: none;
+  font-weight: 600;
+}
+.store-link:hover { background: #113264; }
+.store-link:focus-visible { outline: 2px solid currentColor; outline-offset: -5px; }
+.store-note { font-size: .875rem; }
+.store-screens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: 1rem;
+}
+.store-screens figure { margin: 0; }
+.store-screens a { display: block; }
+.store-screens img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.store-screens figcaption { margin-top: .25rem; }
+.store-footer { display: flex; flex-wrap: wrap; gap: .75rem 1rem; margin-top: 1.5rem; }
